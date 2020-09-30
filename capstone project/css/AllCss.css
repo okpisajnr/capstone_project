@@ -1,0 +1,534 @@
+
+/* media query
+@media only screen 
+   and (min-width : 1600px) {
+   }
+@media only screen 
+   and (min-width : 1200px) {
+
+}
+@media only screen 
+   and (min-width : 768px) {
+}
+@media only screen 
+   and (min-width : 320px) {
+   
+}
+@media only screen 
+   and (min-width : 200px) {
+   
+}*/
+
+/*main css*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#mode{
+   text-align: center; 
+}
+.bold_text {
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0em;
+        }
+
+body {
+    padding-bottom: 25px;
+    padding-top: 20px;
+    font-size: 0.8125rem;
+    font-family: "Open Sans", sans-serif;
+    background: rgb(239,248,254);
+    color: rgb(0,0,0);
+}
+
+.main {
+    margin: 58px auto 0;
+    display: flex;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 3.12% ;
+}
+.footer{
+    padding:20px;
+    font-family: cursive;
+    color: rgb(250,204,204);
+    font-size: 9.8125rem;
+    display: flex;
+    margin: 0 20px;
+    border-top: 3px dotted rgb(209,209,209);
+
+}
+p {
+    font-size: 0.8125rem;
+    font-weight: normal;
+}
+
+.user-intro .resume-body p {
+    line-height: 1.75;
+}
+
+.inner-wrapper {
+    width: 820px;
+    margin: 0 auto;
+    margin-right: 0;
+    border-radius: 30px;
+    background-color:rgb(255,255,255);
+}
+
+.user-logo {
+    display: flex;
+}
+
+.my-px {
+    border-radius: 49px;
+    margin-right: 22px;
+}
+
+.title {
+    align-self: center;
+    font-size: 3rem;
+    font-weight: normal;
+    color: rgb(51,51,51);
+}
+
+.title span {
+    font-weight: 600;
+}
+
+.user-info {
+    list-style: none;
+    align-self: center;
+}
+
+.user {
+    margin-bottom: 6px;
+}
+#back_to_top{
+    text-decoration: none;
+}
+.user a {
+    text-decoration: none;
+     color: rgb(0,0,255);
+}
+ a {
+    text-decoration: none;
+    color: rgb(0,0,255);
+}
+
+.user-info li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.category {
+    display: flex;
+    padding-top: 53px;
+    padding-left: 18px;
+    margin: 0 20px;
+    padding-bottom: 62px;
+    border-top: 3px dotted rgb(209,209,209);
+}
+
+.resume-title p {
+    font-size: 1.125rem;
+    line-height: 1.5625;
+    color: rgb(0,144,252);
+}
+
+.resume-body p {
+    font-weight: 400;
+    line-height: 1.125;
+}
+
+.user-intro .resume-title {
+    margin-right: 156px;
+}
+
+.user-interests .resume-title {
+    margin-right: 120px;
+}
+
+.user-interests .resume-body {
+    align-self: center;
+}
+
+.user-skills .resume-title {
+    margin-right: 151px;
+}
+
+.user-skills .resume-body {
+    display: flex;
+}
+
+.user-skills figure {
+    margin-right: 14.27%;
+    text-align: center;
+}
+
+
+.user-skills figure img {
+    height: 72px;
+}
+
+.user-skills figcaption {
+    padding-top: 12px;
+}
+
+.resume-body .semi-bold_text {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.resume-body .light,
+.duration {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    color: rgb(170,170,170);
+}
+
+
+.user-edu .resume-title {
+    margin-right: 111px;
+}
+
+.user-edu_item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+
+.user-edu_item .duration {
+    align-self: flex-end;
+    margin-left: 107px;
+}
+
+.user-exp .resume-title {
+    margin-right: 102px;
+}
+
+.inner-exp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-exp .duration {
+    align-self: flex-end;
+    margin-left: 220px;
+}
+
+.user-exp_item {
+    margin-bottom: 46px;
+}
+
+
+.user-exp_info p,
+.user-edu_info p {
+    margin-bottom: 6px;
+}
+
+
+
+.user-exp_role {
+    width: 370px;
+    margin-top: 36px;
+}
+
+.user-exp_role li {
+    list-style: none;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.user-exp_role li::before {
+    
+    padding-right: 10px;
+}
+
+
+.user-project .resume-title {
+    margin-right: 128px;
+}
+
+.user-project a {
+    text-decoration: none;
+    color: rgb(0,0,255);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.user-project .resume-body p {
+    margin-bottom: 6px;
+}
+
+
+.top {
+    margin-left: 23px;
+    position: fixed;
+    z-index: 999;
+    bottom: 52px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dark_sm {
+    display: none;
+}
+
+
+/*for smaller scre*/
+@media screen and (max-width: 768px) {
+    .inner-wrapper {
+        width: 100%;
+    }
+    #back_to_top{
+        display: block;
+    }
+
+    .main {
+        margin: 0;
+    }
+
+    .user-logo a {
+        display: block;
+    }
+
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .category {
+        padding-left: 0;
+    }
+
+    .category .resume-title {
+        margin-right: 0;
+    }
+
+    .user-intro .resume-body {
+        margin-left: 17.5%;
+    }
+
+    .user-interests .resume-body {
+        margin-left: 11%;
+    }
+
+    .user-skills .resume-body {
+        margin-left: 25%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+    }
+
+    .user-skills figure {
+        margin-right: 9%;
+    }
+
+    
+    .user-skills figure figcaption {
+        display: block;
+    }
+
+    .user-skills figure img {
+        height: 72px;
+        width: 60px;
+        margin-bottom: 12px;
+    }
+
+    .user-edu .resume-body {
+        margin-left: 9%;
+    }
+
+    .user-edu_resume, .user-exp {
+        display: block;
+    }
+
+    .user-edu_resume .duration,
+    .inner-exp .duration {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .user-exp .resume-body {
+        margin-left: 30%;
+    }
+
+    .user-exp_role {
+        width: 90%;
+        margin-top: 26px;
+    }
+
+    .user-project .resume-body {
+        margin-left: 12%;
+    }
+
+    .aside {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .info, .category {
+        display: block;
+    }
+
+    .user-logo {
+        margin-bottom: 12px;
+    }
+
+    .category .resume-title {
+        margin-bottom: 12px;
+    }
+
+    .category .resume-body {
+        margin: 0;
+    }
+
+}
+.aside {
+    margin: 0 auto;
+    margin-left: 35px;
+    align-content: center;
+}
+
+.dark {
+    position: fixed;
+    z-index: 999;
+    top: 81px;
+    height: 100px;
+    text-align: center;
+}
+
+.dark p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    color: rgb(0,144,252);
+}
+
+.dark-box img {
+    margin-right: 16px;
+}
+
+.dark-box img:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.dark-container {
+    display: flex;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.switchBtn {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 18px;
+    margin-right: 17px;
+}
+
+.switchBtn input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(204,204,204);
+    -webkit-transition: .4s;
+    transition: .4s;
+    height: 18px;
+    width: 32px;
+    background: rgba(11, 19, 53, 0.13);
+}
+
+.switch:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 2px;
+    bottom: 2px;
+    background: rgb(170,170,170);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+input:checked+.switch {
+    background: rgba(11, 19, 53, 0.13);
+    border: 1px solid rgb(255,255,255);
+    border-radius: 30px;
+}
+
+input:checked+.switch.round:before {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    background-color: rgb(0,144,252);
+}
+
+
+input:checked+.switch:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+.switch.round {
+    border-radius: 30px;
+}
+
+.switch.round:before {
+    border-radius: 50%;
+}
+
+
+.inner-wrapper.dark-screen {
+    background: rgb(9,9,9);
+}
+
+.inner-wrapper.dark-screen .title, .inner-wrapper.dark-screen .user-info .a, .inner-wrapper.dark-screen .resume-body p, .inner-wrapper.dark-screen .user-skills figcaption,
+.inner-wrapper.dark-screen .resume-body ul {
+    color: rgb(255,255,255);
+}
+
+.inner-wrapper.dark-screen .resume-body .light, .inner-wrapper.dark-screen .resume-body .duration {
+    color: rgb(170,170,170);
+}
+
+
+@media (max-width: 768px) {
+    .hide {
+        display: none;
+    }
+
+    .dark_sm {
+        display: block;
+        position: fixed;
+        z-index: 999;
+        top: 10px;
+        height: 100px;
+        left: 20px;
+        text-align: center;
+    }
+ 
+}
